@@ -183,7 +183,7 @@ The SmartCalc v1.0 program must be implemented:
 - When writing code it is necessary to follow the Google style
 - Prepare full coverage of modules related to calculating expressions with unit-tests using the Check library
 - GUI implementation, based on any GUI library with API for C89/C99/C11 
-<br/>For Linix: GTK+, CEF, Qt
+<br/>For Linux: GTK+, CEF, Qt
 <br/>For Mac: GTK+, Nuklear, raygui, microui, libagar, libui, IUP, LCUI, CEF, Qt
 - Both integers and real numbers with a dot can be input into the program. You can optionally provide the input of numbers in exponential notation
 - The calculation must be done after you complete entering the calculating expression and press the `=` symbol.
