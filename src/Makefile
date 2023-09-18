@@ -39,6 +39,9 @@ clean:
 	rm -rf *.o *.a *.so *.gcda *.gcno *.gch rep.info *.html *.css test report *.txt test.info test.dSYM
 	cd back; make clean
 
+clean_all: clean
+	rm -dr doxygen; rm -rf s21_SmartCalc.tar
+
 clang_n:
 	clang-format -n --style=Google *.[ch] 
 	clang-format -n --style=Google ./back/*.[ch] ./back/*.cpp 
